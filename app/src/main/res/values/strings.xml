@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Project-Android</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="thongtinKH">Thông Tin Khách Hàng</string>
+    <string name="maKH">Mã Khách Hàng</string>
+    <string name="tenKH">Tên Khách Hàng</string>
+    <string name="diachi">Địa Chỉ</string>
+    <string name="sdt">Số Điện Thoại</string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="DSKH">Danh Sách Khách Hàng</string>
+    <string name="dondathang">Thông Tin Đơn Đặt Hàng</string>
+    <string name="maDH">Mã Đơn Hàng</string>
+    <string name="ngaydh">Ngày Đặt Hàng</string>
+    <string name="danhsachDDH">Danh Sách Đơn Đặt Hàng</string>
+    <string name="qldhsp">Quản Lý Đặt Hàng Sản Phẩm</string>
+    <string name="ttdh">Thông Tin Đặt Hàng</string>
+    <string name="soluong">Số Lượng Đặt</string>
+    <string name="masp">Mã Sản Phẩm</string>
+    <string name="tt">Thông Tin</string>
+    <string name="sp">Sản Phẩm</string>
+    <string name="dssp">Danh Sách Sản Phẩm</string>
+    <string name="tensp">Tên Sản Phẩm</string>
+    <string name="xx">Xuất Xứ</string>
+    <string name="dg">Đơn Giá</string>
+</resources>

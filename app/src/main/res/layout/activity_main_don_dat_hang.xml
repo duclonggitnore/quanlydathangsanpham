@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/listdonhang"
+    tools:context=".Giaodien.MainDonDatHang">
+
+    <TextView
+        style="@style/appname"
+        android:text="Đon Đặt Hàng"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Nhập mã đặt hàng"
+            android:id="@+id/maDH"
+            style="@style/txt" />
+
+        <EditText
+            android:hint="Nhập ngày đặt hàng"
+            android:id="@+id/ngayDH"
+            style="@style/txt"/>
+
+        <Spinner
+            android:id="@+id/spMaKH"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/tieude"
+            android:text="Chức Năng ">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+
+        style="@style/chucnang">
+        <Button
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add"
+            android:id="@+id/Themdh"
+            style="@style/btn"
+            android:text="@string/them" />
+        <Button
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_delete"
+            android:id="@+id/Xoadh"
+            style="@style/btn"
+            android:text="Xóa" />
+        <Button
+            android:background="@drawable/thoat"
+            android:id="@+id/Suadh"
+            android:drawableLeft="@drawable/ic_update"
+            style="@style/btn"
+            android:text="Sửa" />
+        <Button
+            android:background="@drawable/thoat"
+            android:id="@+id/Thoatdh"
+
+            style="@style/btn"
+            android:text="Thoát" />
+
+    </LinearLayout>
+    <TextView
+        style="@style/tieude"
+        android:text="Danh Sách Đơn Đặt Hàng"
+        />
+        <ListView
+            android:id="@+id/lvDSDDH"
+            style="@style/listView">
+        </ListView>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/dondathang"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="30dp"-->
+<!--        android:padding="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/maDH"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="@string/maDH" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/ngayDH"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="@string/ngaydh"-->
+<!--            android:inputType="textPersonName" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="18dp"-->
+<!--                android:text="@string/maKH" />-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spMaKH"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="0" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/chucnang"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginBottom="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Themdh"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_add"-->
+<!--            android:text="@string/them"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Xoadh"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_delete"-->
+<!--            android:text="@string/xoa"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Suadh"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_update"-->
+<!--            android:text="@string/sua"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/danhsachDDH"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="20dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_marginTop="15dp" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/lvDSDDH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

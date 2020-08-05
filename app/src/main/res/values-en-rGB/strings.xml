@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project-Android</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Update</string>
+    <string name="clear">Clear</string>
+    <string name="thongtinKH">Information Customer</string>
+    <string name="maKH">Code customer</string>
+    <string name="tenKH">Name customer</string>
+    <string name="diachi">Address</string>
+    <string name="sdt">Number</string>
+    <string name="chucnang">Funcition</string>
+    <string name="DSKH">List customer</string>
+    <string name="dondathang">" order information"</string>
+    <string name="maDH">code order</string>
+    <string name="ngaydh">Date order</string>
+    <string name="danhsachDDH">List order</string>
+    <string name="qldhsp">Manage product orders</string>
+    <string name="ttdh">Information order</string>
+    <string name="soluong">order quantity</string>
+    <string name="masp">code product</string>
+    <string name="tt">information</string>
+    <string name="sp">Product</string>
+    <string name="dssp">List  product</string>
+    <string name="tensp">Name product</string>
+    <string name="xx">" origin"</string>
+    <string name="dg">" Unit price"</string>
+</resources>

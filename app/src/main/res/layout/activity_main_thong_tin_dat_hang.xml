@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/danhsachtt"
+    android:orientation="vertical"
+    tools:context=".Giaodien.MainThongTinDatHang">
+
+
+
+    <TextView
+        style="@style/appname"
+        android:text="Thông Tin Đơn Đặt Hàng"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spMaDH"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:hint="Nhập mã sản phẩm"
+            android:id="@+id/maSP"
+            style="@style/txt" />
+
+        <EditText
+            android:hint="Nhập số lượng"
+            android:id="@+id/soluong"
+            style="@style/txt"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/tieude"
+            android:text="Chức Năng ">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+
+        style="@style/chucnang">
+        <Button
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add"
+            android:id="@+id/themTTDH"
+            style="@style/btn"
+            android:text="@string/them" />
+        <Button
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_delete"
+            android:id="@+id/xoaTTDH"
+            style="@style/btn"
+            android:text="Xóa" />
+        <Button
+            android:background="@drawable/thoat"
+            android:id="@+id/suaTTDH"
+            android:drawableLeft="@drawable/ic_update"
+            style="@style/btn"
+            android:text="Sửa" />
+        <Button
+            android:background="@drawable/thoat"
+            android:id="@+id/Thoatttdh"
+            style="@style/btn"
+            android:text="Thoát" />
+
+    </LinearLayout>
+    <TextView
+        style="@style/tieude"
+        android:text="Danh Sách Thông Tin"
+        />
+    <ListView
+        android:id="@+id/lvTTDH"
+        style="@style/listView"
+        android:layout_height="264dp"></ListView>
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/ttdh"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="30dp"-->
+<!--        android:padding="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="0"-->
+<!--                android:textSize="18dp"-->
+<!--                android:text="@string/maDH" />-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spMaDH"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/maSP"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Mã Sản Phẩm">-->
+
+<!--            </EditText>-->
+<!--        </LinearLayout>-->
+
+<!--        <EditText-->
+
+<!--            android:id="@+id/soluong"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="@string/soluong"-->
+<!--            android:inputType="textPersonName" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/chucnang"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginBottom="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+
+<!--            android:id="@+id/themTTDH"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_add"-->
+<!--            android:text="@string/them"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+
+<!--            android:id="@+id/xoaTTDH"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_delete"-->
+<!--            android:text="@string/xoa"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+
+<!--            android:id="@+id/suaTTDH"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_update"-->
+<!--            android:text="@string/sua"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/tt"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="20dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_marginTop="15dp" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/lvTTDH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

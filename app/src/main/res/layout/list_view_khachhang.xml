@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imgHinh"
+        android:src="@drawable/namkhachhang"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/soluong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DL01" />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/tenKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duc Long" />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/diachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="76/1" />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/sdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0373710975" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_CTKH"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#FFEB3B"
+        android:src="@drawable/ic_arrow">
+
+    </ImageView>
+<!--    <ImageView-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/list_customers">-->
+<!--    </ImageView>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/soluong"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="KH-01"></TextView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tenKH"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Huỳnh Quốc Khánh"></TextView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/diachi"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TPHCM"></TextView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/sdt"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="0834177401"></TextView>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image_CTKH"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/ic_arrow"></ImageView>-->
+</LinearLayout>

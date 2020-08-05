@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mauvangds"
+    tools:context=".Giaodien.MainSanPham">
+
+
+
+    <TextView
+        style="@style/appname"
+        android:text="Sản Phẩm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spMaSP"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:hint="Nhập tên sản phẩm"
+            android:id="@+id/tenSP"
+            style="@style/txt" />
+
+        <EditText
+            android:hint="Nhập xuất xứ"
+            android:id="@+id/xuatxu"
+            style="@style/txt"/>
+        <EditText
+            android:hint="Nhập đơn giá"
+            android:id="@+id/dongia"
+            style="@style/txt"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/tieude"
+            android:text="Chức Năng ">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+
+        style="@style/chucnang">
+        <Button
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add"
+            android:id="@+id/themSP"
+            style="@style/btn"
+            android:text="@string/them" />
+        <Button
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_delete"
+            android:id="@+id/xoaSP"
+            style="@style/btn"
+            android:text="Xóa" />
+        <Button
+            android:background="@drawable/thoat"
+            android:id="@+id/suaSP"
+            android:drawableLeft="@drawable/ic_update"
+            style="@style/btn"
+            android:text="Sửa" />
+        <Button
+            android:background="@drawable/thoat"
+            android:id="@+id/Thoatsp"
+            style="@style/btn"
+            android:text="Thoát" />
+
+    </LinearLayout>
+    <TextView
+        style="@style/tieude"
+        android:text="Danh Sách Sản Phẩm"
+        />
+    <ListView
+        android:id="@+id/lvDSSP"
+        style="@style/listView">
+    </ListView>
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/sp"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="30dp"-->
+<!--        android:padding="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="0"-->
+<!--                android:textSize="18dp"-->
+<!--                android:text="@string/masp" />-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spMaSP"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1" />-->
+<!--        </LinearLayout>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/tenSP"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="@string/tensp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/xuatxu"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="@string/xx" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/dongia"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="@string/dg" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/chucnang"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginBottom="15dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+
+<!--            android:id="@+id/themSP"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_add"-->
+<!--            android:text="@string/them"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+
+<!--            android:id="@+id/xoaSP"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_delete"-->
+<!--            android:text="@string/xoa"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+
+<!--            android:id="@+id/suaSP"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CDDC39"-->
+<!--            android:drawableLeft="@drawable/ic_update"-->
+<!--            android:text="@string/sua"-->
+<!--            android:textColor="#03A9F4"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#009688"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/dssp"-->
+<!--        android:textColor="#84E118"-->
+<!--        android:textSize="20dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_marginTop="15dp" />-->
+
+<!--    <ListView-->
+
+<!--        android:id="@+id/lvDSSP"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

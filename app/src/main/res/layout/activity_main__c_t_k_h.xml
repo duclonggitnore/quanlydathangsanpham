@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6300BCD4"
+    tools:context=".Giaodien.Main_CTKH">
+
+    <TextView
+        style="@style/tieude"
+        android:text="Thông tin khách hàng">
+
+    </TextView>
+    <EditText
+        android:id="@+id/maKH"
+        style="@style/txt" />
+
+    <EditText
+        android:id="@+id/tenKH"
+        style="@style/txt"/>
+
+    <EditText
+        android:id="@+id/diachi"
+        style="@style/txt" />
+    />
+    <EditText
+        android:id="@+id/sdt"
+        style="@style/txt" />
+    />
+
+    <TextView
+        style="@style/tieude" />
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView6"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#8BC34A"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="15dp"-->
+<!--        android:text="Danh Sách Khách Hang"-->
+<!--        android:textColor="#CDDC39"-->
+<!--        android:textSize="24sp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/maKH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/tenKH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/diachi"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/sdt"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+
+</LinearLayout>

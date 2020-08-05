@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="android.permission.READ_EXTERNAL_STORAGE"
+    package="com.example.project_android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quản Lý Đặt Hàng Sản Phẩm"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Giaodien.List_SanPham"></activity>
+        <activity android:name=".Giaodien.List_TTDH" />
+        <activity android:name=".Giaodien.List_DDH" />
+        <activity android:name=".Giaodien.List_KhachHang" />
+        <activity android:name=".Giaodien.Main_CTSP" />
+        <activity android:name=".Giaodien.Main_CTTTDDH" />
+        <activity android:name=".Giaodien.Main_CTDDH" />
+        <activity android:name=".Giaodien.Main_CTKH" />
+        <activity android:name=".Giaodien.MainActivity" />
+        <activity android:name=".Giaodien.MainSanPham" />
+        <activity android:name=".Giaodien.MainThongTinDatHang" />
+        <activity android:name=".Giaodien.MainDonDatHang" />
+        <activity android:name=".Giaodien.MainKhachHang" />
+        <activity
+            android:name=".Giaodien.Loading"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

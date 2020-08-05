@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6300BCD4"
+    tools:context=".Giaodien.Main_CTDDH"
+    >
+
+    <TextView
+        style="@style/tieude"
+        android:text="Thông tin đơn đặt hàng" />
+
+    <EditText
+        android:id="@+id/maDH"
+        style="@style/txt" />
+
+    <EditText
+        android:id="@+id/ngayDH"
+        style="@style/txt"/>
+
+    <EditText
+        android:id="@+id/maKH"
+        style="@style/txt" />
+    />
+
+    <TextView
+        style="@style/tieude" />
+<!--    <TextView-->
+<!--        android:id="@+id/textView8"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#8BC34A"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="15dp"-->
+<!--        android:textColor="#CDDC39"-->
+<!--        android:textSize="24sp"-->
+<!--        android:text="Danh sách Đơn đặt hàng" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/maDH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/ngayDH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/maKH"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name" />-->
+</LinearLayout>

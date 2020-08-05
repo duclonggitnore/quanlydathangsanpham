@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Giaodien.Main_CTSP">
+
+    <TextView
+        style="@style/tieude"
+        android:text="Thông Tin Sản Phẩm">
+
+    </TextView>
+    <EditText
+        android:id="@+id/spMaSP"
+        style="@style/txt" />
+
+    <EditText
+        android:id="@+id/tenSP"
+        style="@style/txt"/>
+
+    <EditText
+        android:id="@+id/xuatxu"
+        style="@style/txt" />
+    />
+    <EditText
+        android:id="@+id/dongia"
+        style="@style/txt" />
+    />
+
+    <TextView
+        style="@style/tieude" />
+
+</LinearLayout>
